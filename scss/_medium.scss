@@ -1,0 +1,110 @@
+/*-------------------------------------*/
+/* LAYOUT: HEADER */
+.nav-trigger {
+  display: none;
+}
+
+.logo-block {
+  float: left;
+}
+
+.nav-block {
+  float: right;
+  text-align: left;
+  background-color: transparent;
+  position: static;
+  right: auto;
+  top: auto;
+  bottom: auto;
+  height: auto;
+  width: auto;
+  overflow-x: static;
+  overflow-y: static;
+  padding: 0;
+  box-shadow: none;
+  visibility: visible;
+}
+
+.nav li, .nav li a {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav li a {
+  border-bottom: none;
+}
+
+/*-------------------------------------*/
+/* LAYOUT: FOOTER */
+.footer-block {
+  width: 33.33%;
+  float: left;
+  padding: 25px;
+}
+
+.bottom-bar {
+  text-align: left;
+}
+
+.bottom-bar-social-block {
+  float: left;
+}
+
+.bottom-bar-copyright-block {
+  float: right;
+}
+
+.footer-block {
+  padding: 2%;
+}
+
+/*-------------------------------------*/
+/* LAYOUT: HOME */
+.masthead-img {
+  width: 50%;
+}
+
+.sub-heading--masthead {
+  font-size: 180%;
+}
+
+.button-explore {
+  display: inline-block;
+}
+
+.about-intro {
+  float: left;
+  width: 50%;
+}
+
+.home-family {
+  margin-top: 0;
+}
+
+/*-------------------------------------*/
+/* PAGE: ABOUT */
+
+.cmp-about-steps-each {
+  width: 33.33%;
+  float: left;
+}
+
+/*-------------------------------------*/
+/* PAGE: TEAM */
+.team-each {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form-join-each {
+  width: 33.33%;
+  float: left;    
+}
+
+/*-------------------------------------*/
+/* PAGE: CONTACT */
+.email-each {
+  width: 33.33%;
+  float: left;
+}

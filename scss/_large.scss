@@ -1,0 +1,54 @@
+/*-------------------------------------*/
+/* PAGE: HOME */
+.banner-img-block {
+  width: 840px;
+}
+
+.banner-img {
+  float: left;
+}
+
+.banner-img-1, .banner-img-3 {
+  display: block;
+}
+
+/*-------------------------------------*/
+/* PAGE: ABOUT */
+.cmp-about-usage-each {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.cmp-about-usage-each:nth-of-type(even) {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse;    
+}
+
+.cmp-about-usage-info, .cmp-about-usage-img {
+  float: left;
+  width: 50%;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.cmp-about-usage-each:nth-of-type(even) .cmp-about-usage-info {
+  float: right;
+}
+
+.cmp-about-usage-info ul {
+  font-size: 120%;
+}
+
+.cmp-about-usage-each:nth-of-type(odd) .cmp-about-usage-info ul {
+  text-align: right;
+}
+
+/*-------------------------------------*/
+/* PAGE: TEAM */
+.team-each {
+  width: 33.33%;
+}
